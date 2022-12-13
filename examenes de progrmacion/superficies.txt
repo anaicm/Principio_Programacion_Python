@@ -1,0 +1,29 @@
+Armenia 29743
+Austria 83858
+Belgium 30510
+Bulgaria 110910
+Croatia 56542
+Cyprus 9251
+Czech Republic 78866
+Denmark 43094
+Estonia 45226
+Finland 338145
+France 551695
+Germany 357050
+Greece 131940
+Hungary 93030
+Ireland 84420
+Italy 301318
+Latvia 64589
+Lithuania 65200
+Luxembourg 2586
+Netherlands 41526
+Poland 312685
+Portugal 91568
+Republic of Ireland 70280
+Romania 238392
+Slovakia 48845
+Slovenia 20273
+Spain 505992
+Sweden 449964
+United Kingdom 244820

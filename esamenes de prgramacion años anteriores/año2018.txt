@@ -1,0 +1,140 @@
+1
+2pt
+Se tiene en un fichero
+gastos.txt las canti-
+dades gastadas en una larga serie de compras. Se
+quiere saber cuál es la cantidad media de lo gas-
+tado, lo máximo y lo mínimo. Para ello desarrollar
+una función capaz de leer cualquier fichero de nom-
+bre recibido en un único parámetro con el nombre
+del fichero, y que devuelva los tres números reales:
+media, mínimo y máximo. El fichero de ejemplo,
+gastos.txt, se dará al final de las preguntas. Definir
+la función
+def leeGastos(..) que reciba el nombre
+del fichero en un parámetro, y que devuelva los tres
+valores anteriores, para que fuera de la función se
+puedan imprimir al final del programa. Los gastos
+son números reales que están separados por espacios
+en varias líneas.
+Saldría: (439.3402500000001, 14.31, 979.8)
+2
+2pt
+En una clínica se tienen unos datos de los usuarios
+en un fichero
+usuarios.txt de forma que en en cada
+línea del fichero se tiene el nombre seguido de
+’:’ y
+dos números reales que son la altura (m) y el peso
+(kg) del usuario separados por espacios. Hacer una
+función
+def leeAlturasPesos(...) que reciba en
+su parámetro el nombre de un fichero, y que devuelva
+una lista estructurada con todos los datos del fichero,
+tal que cada elemento de la lista contenga un dic-
+cionario con los camp os:
+’nombre’, ’altura’ y ’
+peso’
+. Una vez devuelta esta lista, en el programa
+principal, guardarla en una variable apropiada para
+usarla en el siguiente programa.
+3
+2pt
+Hacer un subprograma
+def imprimeIMC(lista
+) que reciba la lista anterior e imprima, print(),
+desde dentro del subprograma, el índice de masa
+corporal de cada persona. Para ello hacer antes otra
+pequeña función que reciba dos parámetros, la altura
+y el peso y que devuelva el IMC imc correspondiente
+aplicando la fórmula: imc = p/h
+2
+donde p es el peso
+en Kg y h la altura en metros. Como curiosidad: un
+valor menor que 18 se considera bajo peso, y más de
+30, obeso. Para los datos del ejemplo dado deberían
+salir:
+Homer: 32.60475787948315
+Marge: 18.614274477617048
+...
+4
+2pt
+Se tiene la información de las películas del último
+año en un fichero
+cine2017.txt de forma que detrás
+del título, que está en una línea, se tiene un resumen
+en varias líneas. La línea del título empieza por el
+carácter
+’*’ y a continuación el resto de la línea es
+el título de la misma. Hacer una o varias funciones
+para que llamando a la función
+def leePeliculas
+(...) reciba el nombre de un fichero como el que se
+pone de ejemplo (
+cine2017.txt) y nos devuelva una
+lista con registros (
+dict) cada uno con el ’nombre’
+y la ’descripción’ de cada película que haya en
+el fichero. Fuera de esta función, guardar esa lista
+devuelta en una variable.
+5
+2pt
+Hacer una función
+def buscaPelicula(
+listaPeliculas, nombre) que reciba el listado
+obtenido en el problema anterior y cualquier nombre
+de película en el segundo parámetro. La función
+devolverá la descripción de la película. Si la película
+no estuviera, devolverá una cadena vacía. Al final
+de nuestro programa python llamar a la función
+con la lista y la película de nombre, por ejemplo,
+’Logan’ primero e imprimir la descripción que se
+nos devuelva. Imprimir también la descripción de
+una película que no esté,
+’Nemo’, por ejemplo.
+Usar el tipo de bucle adecuado para lo que es el
+proceso de una búsqueda.
+
+	GASTOS.TXT
+
+614.1 542.2 590.7 703.8 282.1 180.9
+356.8 333.8 14.31 686.3
+861.1 979.8 71.38 967.6
+291.8 54.6 690.2 933 642.9
+87.78 656.3 160.1 539.3 329.5
+790.7 137.2 282.9 204 317.2 399 508.9
+725.2 45.24 157.6 645.2
+545.8 58.9 196.2 722.3 266.9
+
+	usuarios.txt
+
+Homer: 1.82 108
+Marge: 1.71 54.43
+Lisa: 1.4 40
+Bart: 1.5 54
+Maggie: 0.88 12.25
+
+
+	CINE2017.TXT
+*Coco
+Aspiring musician Miguel, confronted with his family’s ancestral ban on music,
+enters the Land of the Dead to find his great-great-grandfather, a legendary
+singer
+*Tres anuncios en las afueras
+A mother personally challenges the local authorities to solve her daughter’s
+murder when they fail to catch the culprit.
+*Blade Runner 2049
+A young blade runner’s discovery of a long-buried secret leads him to track
+down former blade runner Rick Deckard, who’s been missing for thirty years.
+*Call Me by Your Name
+In Northern Italy in 1983, seventeen year-old Elio begins a relationship with
+visiting Oliver, his father’s research assistant, with whom he bonds over his
+emerging sexuality, their Jewish heritage, and the beguiling Italian
+landscape.
+*Logan
+In the near future, a weary Logan cares for an ailing Professor X, somewhere
+on the Mexican border. However, Logan’s attempts to hide from the world, and
+his legacy, are upended when a young mutant arrives, pursued by dark forces.
+*Dunkerque
+Allied soldiers from Belgium, the British Empire and France are surrounded by
+the German Army, and evacuated during a fierce battle in World War II.

@@ -1,0 +1,4 @@
+Alumno 1: 5 2 7
+Alumno 4: 10 10 1.7
+Alumno 2: 0 4 10
+Alumno 5: 5 5 5

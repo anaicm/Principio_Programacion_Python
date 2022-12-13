@@ -1,0 +1,7 @@
+Barcelona:   1_664_182
+Madrid:  3_334_730
+Murcia:  459_403
+Málaga:  578_460
+Sevilla: 691_395
+Valencia:    800_215
+Zaragoza:    681_877
